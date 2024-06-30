@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@300;400;600;800 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@300;400;500;600;700;800;900 & display=swap');
+@import url('https://fonts.cdnfonts.com/css/new-super-mario-font-u');
+@import url('https://fonts.cdnfonts.com/css/gagalin');
 
 @tailwind base;
 @tailwind components;
@@ -8,5 +10,145 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Rubik", "sans-serif";
+  transition: all .3s linear;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-behavior: slow;
+  /* For Firefox */
+}
+
+/* ===================== scroll =====================*/
+::-webkit-scrollbar {
+  max-width: 10px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 10px;
+}
+
+::selection {
+  background: black;
+  color: white;
+}
+
+/* ===================== about section =====================*/
+
+@keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+  }
+
+  100% {
+    border-radius: 40% 60%;
+  }
+}
+
+/* ===================== sidebar =====================*/
+.icon:hover {
+  transform: rotateY(-5deg) translateY(-15px) rotateX(5deg) scale(1);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+        50% {
+          transform: translateY(30px);
+        }
+
+        100% {
+          transform: translateY(0);
+        }
+}
+
+/* ===================== media =====================*/
+
+/* @media(max-width:375px) {
+  .main_text {
+    font-size: 80px;
+  }
+
+  .hero_top {
+    width: 100vw;
+    text-align: start;
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .skills_card {
+    width: 270px;
+  }
+
+  .skills_card h2 {
+    font-size: 12px;
+  }
+
+  .portfolio_wrapper {
+    width: 270px;
+  }
+
+  .portfolio_img {
+    height: 150px;
+  }
+
+  .portfolio_btn {
+    padding: 7px;
+  }
+}
+
+@media(max-width:768px) {
+  .aside {
+    display: none;
+  }
+
+  .pages {
+    margin-left: 0;
+  }
+
+  .main_text {
+    font-size: 100px;
+  }
+
+  .hero_top {
+    width: 100vw;
+    text-align: start;
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .skills_card {
+    width: 270px;
+  }
+
+  .skills_card h2 {
+    font-size: 12px;
+  }
+
+  .portfolio_wrapper {
+    width: 270px;
+  }
+
+  .portfolio_img {
+    height: 150px;
+  }
+
+  .portfolio_btn {
+    padding: 7px;
+  }
+
+}
+
+@media(max-width:1024px) {
+  .portfolio_wrapper {
+    width: 300px;
+  }
+} */
