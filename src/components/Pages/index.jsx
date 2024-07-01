@@ -25,7 +25,7 @@ const Pages = () => {
       <Footer />
       <a href="#main" className={`fixed bottom-6 right-10`}>
         {
-          <BsFillArrowUpCircleFill className="text-slate-500 w-10 h-10 hover:text-orange" />
+          <BsFillArrowUpCircleFill className="text-slate-500 w-10 h-10 hover:text-lime-500" />
         }
       </a>
     </div> 

@@ -14,20 +14,20 @@ const Bio = () => {
     <div className="flex justify-between flex-wrap">
       <ul>
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <FaGifts color="orange" className="mr-3" />
+          <FaGifts color="green" className="mr-3" />
           <span>
             <label className="mr-3">생년월일:</label> 1993.12.05
           </span>
         </li>
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <FaPassport color="orange" className="mr-3" />
+          <FaPassport color="green" className="mr-3" />
           <span>
             <label className="mr-3">나이:</label> 30
           </span>
         </li>
 
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <FaSearchLocation color="orange" className="mr-3" />
+          <FaSearchLocation color="green" className="mr-3" />
           <span>
             <label className="mr-3">주소:</label>
             서울
@@ -35,7 +35,7 @@ const Bio = () => {
         </li>
 
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <PiGameControllerFill color="orange" className="mr-3" />
+          <PiGameControllerFill color="green" className="mr-3" />
           <span>
             <label className="mr-3">이해:</label> 코딩, 읽기
           </span>
@@ -43,20 +43,20 @@ const Bio = () => {
       </ul>
       <ul className="mr-5">
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <FaBookReader color="orange" className="mr-3" />
+          <FaBookReader color="green" className="mr-3" />
           <span>
             <label className="mr-3">학부:</label>
             석사 계명대학원
           </span>
         </li>
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <FaChartArea color="orange" className="mr-3" />
+          <FaChartArea color="green" className="mr-3" />
           <span>
             <label className="mr-3">도:</label> Junior
           </span>
         </li>
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <FaMailBulk color="orange" className="mr-3" />
+          <FaMailBulk color="green" className="mr-3" />
           <span>
             <label className="mr-3">이메일:</label>
             <a
@@ -68,7 +68,7 @@ const Bio = () => {
           </span>
         </li>
         <li className={`flex py-[8px] items-center text-kulrang_text`}>
-          <FaPhoneAlt color="orange" className="mr-3" />
+          <FaPhoneAlt color="green" className="mr-3" />
           <span>
             <label className="mr-3">전화:</label>
             <a href="tel:+821076145180" className="hover:underline">

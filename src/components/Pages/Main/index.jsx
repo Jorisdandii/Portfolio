@@ -23,9 +23,9 @@ const Main = () => {
 
         <a
           href="#home"
-          className={`flex justify-center border-4 border-orange rounded-full w-10 h-16  absolute bottom-2 right-[50%]`}
+          className={`flex justify-center border-4 border-lime-600 rounded-full w-10 h-16  absolute bottom-2 right-[50%]`}
         >
-          <div className="w-2 h-2 bg-orange rounded-full animate-bounce mt-2 " />
+          <div className="w-2 h-2 bg-lime-600 rounded-full animate-bounce mt-2 " />
         </a>
       </div>
     </section>

@@ -8,9 +8,9 @@ const Sidebar = () => {
       className="w-20 fixed top-0 left-0 z-50 bg-transparent select-none aside"
     >
       <div
-        className={`bg-[orange] text-white text-5xl h-20 ${styles.flex} border-r-[1px] border-orange font-semibold`}
+        className={`bg-[green] text-white text-5xl h-20 ${styles.flex} border-r-[1px] border-green font-semibold`}
       >
-        G
+        D
       </div>
 
       <div className="wrapper border-[1px] border-[#e9e9ea] pb-44 pt-20 h-full">

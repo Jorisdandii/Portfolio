@@ -53,7 +53,7 @@ const About = () => {
 
         <div>
           <span className="relative flex h-8 w-8 mb-10">
-            <span className="animate-pulse absolute inline-flex h-full w-full rounded-full bg-orange opacity-75"></span>
+            <span className="animate-pulse absolute inline-flex h-full w-full rounded-full bg-[green] opacity-75"></span>
             <p className="text-4xl ml-3 mt-2 font-medium font-gagalin">
               Biography
             </p>
@@ -61,7 +61,7 @@ const About = () => {
 
           <p className="w-[660px] mb-5 text-kulrang_text">
             Hi! My name is
-            <span className="text-orange "> Tangirov Sirojiddin</span>. I am a
+            <span className="text-lime-600 "> Tangirov Sirojiddin</span>. I am a
             Full stack Developer, and I'm very passionate and dedicated to my
             work. I have been involved in many real projects. I have acquired
             the skills and knowledge necessary to make projects a success.
@@ -71,7 +71,7 @@ const About = () => {
 
           <button
             onClick={onButtonClick}
-            className={`bg-orange text-white rounded-sm py-1 px-2 active:scale-95 mt-3 hover:opacity-70`}
+            className={`bg-[green] text-white rounded-sm py-1 px-2 active:scale-95 mt-3 hover:opacity-70`}
           >
             Download CV
           </button>
