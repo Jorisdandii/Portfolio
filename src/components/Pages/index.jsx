@@ -5,7 +5,7 @@ import Portfolio from "./Portfolio";
 import Technology from "./Technology";
 import Main from "./Main";
 import Footer from "./Footer";
-import Contact from "../Pages/Contact/form";
+import Contact from "./Contact";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import EducationSkills from "./Education_Skills";
 import Skills from "./Skills";
@@ -25,7 +25,7 @@ const Pages = () => {
       <Footer />
       <a href="#main" className={`fixed bottom-6 right-10`}>
         {
-          <BsFillArrowUpCircleFill className="text-slate-500 w-10 h-10 hover:text-lime-500" />
+          <BsFillArrowUpCircleFill className="text-slate-500 w-10 h-10 hover:text-lime-600" />
         }
       </a>
     </div> 

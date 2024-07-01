@@ -23,7 +23,7 @@ const ParticlesBg = () => {
         value: "transparent",
       },
     },
-    fpsLimit: 120,
+    fpsLimit: 190,
     interactivity: {
       events: {
         onClick: {
@@ -48,10 +48,10 @@ const ParticlesBg = () => {
     },
     particles: {
       color: {
-        value: "#ff9301",
+        value: "#247517",
       },
       links: {
-        color: "#ff9301",
+        color: "#247517",
         distance: 150,
         enable: true,
         opacity: 0.5,

@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero_top w-1/2 text-center">
         <h1 className="text-xl text-kulrang_text">Hello there...</h1>
         <h1 className="text-7xl py-5  font-gagalin">
-          Tangirov <span className="text-orange">Sirojiddin</span>
+          Tangirov <span className="text-lime-600">Sirojiddin</span>
         </h1>
         <ReactTyped
           strings={["Developer", "Photographer"]}
@@ -19,7 +19,7 @@ const Hero = () => {
           backSpeed={30}
           cursorChar="|"
           showCursor={true}
-          className={`text-3xl text-orange font-medium`}
+          className={`text-3xl text-lime-600 font-medium`}
         />
         <p className="text-kulrang_text pt-5">
           I build the full stack portion of websites and web applications - the
@@ -33,7 +33,7 @@ const Hero = () => {
         <img
           src={logo}
           alt="logo"
-          className="w-1/2 m-auto rounded-full hero_img"
+          className="w-1/2 m-auto hero_img"
         />
       </div>
     </section>

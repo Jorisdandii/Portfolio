@@ -15,7 +15,7 @@ const Footer = () => {
                 key={index}
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-black hover:text-orange hover:text-2xl md:mr-6 mr-4"
+                className="text-xl text-black hover:text-green-600 hover:text-2xl md:mr-6 mr-4"
               >
                 {icon}
               </a>

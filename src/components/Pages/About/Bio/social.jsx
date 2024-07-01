@@ -6,22 +6,23 @@ import {
   FaPinterestP,
   FaTwitter,
 } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Socials = () => {
   return (
     <ul className={`${styles.flex} w-full gap-2 mt-5`}>
       <li className={`${styles.socials}`}>
         <a
-          href="https://www.pinterest.com/gulxumorerkinjonova/"
+          href="https://www.instagram.com/sirojiddin8617/"
           target={"_blank"}
           rel="noreferrer"
         >
-          <FaPinterestP color="white" />
+          <AiFillInstagram color="white" />
         </a>
       </li>
       <li className={`${styles.socials}`}>
         <a
-          href="https://facebook.com/tangirov"
+          href="https://www.facebook.com/people/Sirojiddin-Tangirov/pfbid0gPWm5NvsEVX3CA8cnmM5YKvcynU47Q5cM2iaxZQEoHdYLhzSUzReWfn5UcoSe7wql/?locale=ko_KR"
           target={"_blank"}
           rel="noreferrer"
         >
@@ -30,7 +31,11 @@ const Socials = () => {
       </li>
 
       <li className={`${styles.socials}`}>
-        <a href="https://linkedin.com/" target={"_blank"} rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/feed/?legoTrackingToken=c34ZpnFFkTBxr71PqmgCc2UMfmlOrSdjtOoZsC5gr6litOoZp6Zdr6litOoVejAVejRApnhPpnlNpl9JtmUCjAZ9l4BjjR0Zuk9OpmhOjThBpShFtOpQrClQrCBvsClHpmlPnS9LqBYOtChxs6xzrDlxr3RAinhBpShFtOoMfmVLqnhFsSZgt6lDp6BT9z0Kc3RBsCZzkT9D9zROol1Ipl9OpOoZp6Zdr6lisCsCc3RKrSBQqndLk71RrT9D9zAVejAVfmhBt7dBtn5BkCRRjD1RrT9D9DhItm5CpmgZp4BMtmZOpOpejQBkildfk3RVgD9Bp79L9DhItm5CpmgZp4BQrClJpSlP9DhKpnhKqjRAinhLr7cCt6NRompBp3RAinhRrTBxr2oOtChxs6xzrDlxr3RBrm5epmtxs2pEt7tLsCsZp4BMs64CcPsUdPoOfmh9rCZFsT9BtyoScjsQe3ATdP0Nfmh9tipBdPlzcjlzdCdBpCoJom4Pe2QVc68QbjcUdmcJdmoTojkQcS8Zp4BQu6lQrCZz"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <FaLinkedinIn color="white" />
         </a>
       </li>

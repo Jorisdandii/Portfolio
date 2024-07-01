@@ -5,7 +5,7 @@ const Forms = () => {
     <section>
       <div className="max-h-screen py-6 flex flex-col justify-center sm:py-12 wrap">
         <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-          <div className="absolute inset-0 bg-gradient-to-r from-lightOrange to-orange shadow-lg transform -skew-y-6 hover:-skew-y-0 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl bg-red-300 hover:rotate-0 "></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-lightOrange to-lime-600 shadow-lg transform -skew-y-6 hover:-skew-y-0 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl bg-red-300 hover:rotate-0 "></div>
           <div className="relative px-10 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 transform hover:origin-center">
             <form
               className="max-w-md mx-auto"
@@ -20,7 +20,7 @@ const Forms = () => {
                   backSpeed={30}
                   cursorChar="|"
                   showCursor={true}
-                  className={`text-3xl text-orange font-medium`}
+                  className={`text-3xl text-[green] font-medium`}
                 />
               </div>
               <div className="divide-y divide-gray-200">
@@ -29,7 +29,7 @@ const Forms = () => {
                     <input
                       type="text"
                       id="floating_outlined"
-                      className="block px-2 pb-2 pt-2 w-full text-[16px] text-gray-900 bg-transparent rounded-lg border-2 border-gray-300 dark:text-orange dark:focus:border-orange-500 focus:outline-none focus:ring-0 focus:border-orange-600 peer"
+                      className="block px-2 pb-2 pt-2 w-full text-[16px] text-gray-900 bg-transparent rounded-lg border-2 border-gray-300 dark:text-lime-600 dark:focus:border-orange-500 focus:outline-none focus:ring-0 focus:border-orange-600 peer"
                       name="full_name"
                       required
                     />
@@ -75,7 +75,7 @@ const Forms = () => {
                   <div className="relative">
                     <button
                       htmltype="submit"
-                      className="border-2 border-orange text-orange rounded-md px-4 py-1 hover:bg-orange hover:text-white active:scale-95"
+                      className="border-2 border-lime-600 text-lime-600 rounded-md px-4 py-1 hover:bg-[green] hover:text-white active:scale-95"
                     >
                       Submit
                     </button>

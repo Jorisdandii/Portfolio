@@ -7,13 +7,13 @@ const Skills = () => {
   return (
     <section className="w-[80%] m-auto my-20" id="skills">
       <span className="relative flex h-8 mb-20">
-        <span className="animate-pulse absolute w-8 inline-flex h-full rounded-full bg-orange opacity-75"></span>
+        <span className="animate-pulse absolute w-8 inline-flex h-full rounded-full bg-[green] opacity-75"></span>
         <p className="text-4xl ml-3 mt-1 w-full font-medium font-gagalin">
           Skills
         </p>
       </span>
 
-      <div className="border-x-4 border-orange py-5">
+      <div className="border-x-4 border-lime-600 py-5">
         <Marquee autoFill={true} pauseOnHover direction="right">
           {education.map(({ icon, name, color, width, url, link }, index) => (
             <a

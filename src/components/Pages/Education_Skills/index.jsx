@@ -4,13 +4,13 @@ const Education_Skills = () => {
   return (
     <section className="w-[80%] m-auto">
       <span className="relative flex h-8 mb-20">
-        <span className="animate-pulse absolute w-8 inline-flex h-full rounded-full bg-orange opacity-75"></span>
+        <span className="animate-pulse absolute w-8 inline-flex h-full rounded-full bg-[green] opacity-75"></span>
         <p className="text-4xl ml-3 mt-1 w-full font-medium font-gagalin">
           Education & Skills
         </p>
       </span>
       <div className="flex justify-between flex-wrap">
-        <div className="bg-orange w-[325px] p-8 skills_card rounded-lg">
+        <div className="bg-[green] w-[325px] p-8 skills_card rounded-lg">
           {teaching.map(({ id, year, major, center }) => (
             <div key={id} className={`flex flex-col gap-2`}>
               <h2 className="text-white text-[15px] font-medium">{year}</h2>
@@ -32,7 +32,7 @@ const Education_Skills = () => {
                 <div className="mb-1 font-medium">{skill}</div>
                 <div className="w-full bg-gray-200 h-3 mb-4 rounded-md">
                   <div
-                    className={`bg-orange h-3 rounded-md`}
+                    className={`bg-[green] h-3 rounded-md`}
                     style={{ width: `${degree}` }}
                   ></div>
                 </div>
