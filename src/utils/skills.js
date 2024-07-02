@@ -2,11 +2,11 @@ import deanbrands_react from "../assets/images/projects_img/deanbrands_react.jpg
 import education from "../assets/images/projects_img/education.jpg";
 import devex from "../assets/images/projects_img/devex.jpg";
 import dressme from "../assets/images/projects_img/dressme.jpg";
-import todo from "../assets/images/projects_img/todo.jpg";
-import movie from "../assets/images/projects_img/movie.jpg";
-import weather from "../assets/images/projects_img/weather.jpg";
+// import todo from "../assets/images/projects_img/todo.jpg";
+// import movie from "../assets/images/projects_img/movie.jpg";
+// import weather from "../assets/images/projects_img/weather.jpg";
 import deanbrands from "../assets/images/projects_img/deanbrands.jpg";
-import furni from "../assets/images/projects_img/furni.png";
+// import furni from "../assets/images/projects_img/furni.png";
 import netflex from "../assets/images/projects_img/netflex.jpg";
 
 export const skills = [
@@ -106,7 +106,7 @@ export const projects = [
     demo: "https://devex.uz/",
   },
   {
-    id: 8,
+    id: 5,
     src: dressme,
     title: "Dressme shop",
     github_link: "",
