@@ -1,13 +1,13 @@
-import nihol from "../assets/images/projects_img/nihol.jpg";
-import rymo from "../assets/images/projects_img/rymo.jpg";
-import portfolio from "../assets/images/projects_img/portfolio.jpg";
-import new_portfolio from "../assets/images/projects_img/new_portfolio.png";
+import deanbrands_react from "../assets/images/projects_img/deanbrands_react.jpg";
+import education from "../assets/images/projects_img/education.jpg";
+import devex from "../assets/images/projects_img/devex.jpg";
+import dressme from "../assets/images/projects_img/dressme.jpg";
 import todo from "../assets/images/projects_img/todo.jpg";
 import movie from "../assets/images/projects_img/movie.jpg";
 import weather from "../assets/images/projects_img/weather.jpg";
-import food from "../assets/images/projects_img/food.jpg";
+import deanbrands from "../assets/images/projects_img/deanbrands.jpg";
 import furni from "../assets/images/projects_img/furni.png";
-import countries from "../assets/images/projects_img/countries.jpg";
+import netflex from "../assets/images/projects_img/netflex.jpg";
 
 export const skills = [
   {
@@ -22,112 +22,122 @@ export const skills = [
   },
   {
     id: 2,
-    degree: "80%",
+    degree: "90%",
     skill: "JavaScript",
   },
   {
     id: 3,
-    degree: "55%",
+    degree: "80%",
     skill: "TypeScript",
   },
   {
     id: 4,
-    degree: "72%",
+    degree: "90%",
     skill: "React JS",
+  },
+  {
+    id: 5,
+    degree: "90%",
+    skill: "Node JS",
+  },
+  {
+    id: 6,
+    degree: "80%",
+    skill: "Next JS",
   },
 ];
 
 export const teaching = [
   {
     id: 0,
-    year: "April 2023 - June 2023",
-    major: "Frontend Development",
-    center: "AEMA Team",
+    year: "Jan 2022 - Sep 2022",
+    major: "Frontend Developer",
+    center: "SoftCity IT company",
   },
   {
     id: 1,
-    year: "November 2022 - April 2023",
+    year: "Sep 2022 - Jun 2023",
     major: "Frontend Development",
-    center: "Webbrain Academy",
+    center: "Web Solution",
   },
 
   {
     id: 2,
-    year: "April 2023 - June 2023",
-    major: "Secondary school",
-    center: "53-school",
+    year: "JUN 2023 - MAY 2024",
+    major: "Full Stack Developer",
+    center: "Smart Solutions Co, LTD",
   },
 ];
 
 export const projects = [
   {
     id: 0,
-    src: nihol,
-    title: "Nihol App",
-    github_link: "https://github.com/Gulxumor/intern-G2",
-    demo: "https://nihol.netlify.app/",
+    src: deanbrands_react,
+    title: "DeanBrands shop",
+    github_link: "https://github.com/Jorisdandii/deanbrands-react",
+    demo: "http://deanbrands.com/",
   },
   {
     id: 1,
-    src: food,
-    title: "Ordering food",
-    github_link: "https://github.com/Gulxumor/ordering-food",
-    demo: "https://order-food-project.netlify.app",
+    src: deanbrands,
+    title: "DeanBrands dashboard",
+    github_link: "https://github.com/Jorisdandii/deanbrands",
+    demo: "http://deanbrands.com:3005/brands",
   },
   {
     id: 2,
-    src: countries,
-    title: "Find Countries",
-    github_link: "https://github.com/Gulxumor/my-react-project/tree/7-dars",
-    demo: "https://countries-task7.netlify.app",
+    src: netflex,
+    title: "Drama Trailer ",
+    github_link: "https://github.com/Jorisdandii/dean-app-movie",
+    demo: "https://dean-app-movie.vercel.app/",
   },
   {
     id: 3,
-    src: rymo,
-    title: "Rymo - online shop",
-    github_link: "https://github.com/Gulxumor/rymo",
-    demo: "https://rymo-website.netlify.app",
+    src: education,
+    title: "Dean - education",
+    github_link: "https://github.com/Jorisdandii/dean-education",
+    demo: "https://dean-education.vercel.app/",
   },
   {
     id: 4,
-    src: portfolio,
-    title: "Portfolio",
-    github_link: "https://github.com/Gulxumor/portfolio",
-    demo: "https://gulxumorerkinjonova.netlify.app",
+    src: devex,
+    title: "Devex education",
+    // github_link: "",
+    demo: "https://devex.uz/",
   },
   {
     id: 8,
-    src: new_portfolio,
-    title: "Portfolio App",
-    github_link: "https://github.com/Gulxumor/portfolio-project",
-    demo: "https://erkinjonova.netlify.app",
+    src: dressme,
+    title: "Dressme shop",
+    github_link: "",
+    demo: "https://dressme.uz/",
   },
-  {
-    id: 5,
-    src: movie,
-    title: "Movie App",
-    github_link: "https://github.com/Gulxumor/figma-projects/tree/movie-app",
-    demo: "https://moviee-app-task.netlify.app",
-  },
-  {
-    id: 6,
-    src: todo,
-    title: "Todo App",
-    github_link: "https://github.com/Gulxumor/figma-projects/tree/to-do-list",
-    demo: "https://additional-todo-task.netlify.app",
-  },
-  {
-    id: 7,
-    src: weather,
-    title: "Weather App",
-    github_link: "https://github.com/Gulxumor/figma-projects/tree/weather",
-    demo: "https://project-weather-ap.netlify.app",
-  },
-  {
-    id: 9,
-    src: furni,
-    title: "Furni.",
-    github_link: "https://github.com/Gulxumor/my-react-project/tree/9-dars/src",
-    demo: "https://furniture-figma.netlify.app/",
-  },
+  // {
+  //   id: 5,
+  //   src: movie,
+  //   title: "Movie App",
+  //   github_link: "",
+  //   demo: "",
+  // },
+  // {
+  //   id: 6,
+  //   src: todo,
+  //   title: "Todo App",
+  //   github_link: "",
+  //   demo: "",
+  // },
+  // {
+  //   id: 7,
+  //   src: weather,
+  //   title: "Weather App",
+  //   github_link: "",
+  //   demo: "",
+  // },
+  // {
+  //   id: 9,
+  //   src: furni,
+  //   title: "Furni.",
+  //   github_link: "",
+  //   demo: "",
+  // },
 ];
