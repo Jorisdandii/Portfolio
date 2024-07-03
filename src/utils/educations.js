@@ -1,14 +1,24 @@
 import ts from "../assets/icons/ts.svg";
-import { AiFillHtml5, AiOutlineAntDesign } from "react-icons/ai";
-import { TbBrandMantine } from "react-icons/tb";
+import { AiFillHtml5 } from "react-icons/ai";
+import { TbBrandMantine, TbBrandNextjs } from "react-icons/tb";
+import { FcLinux } from "react-icons/fc";
 import { DiJavascript1 } from "react-icons/di";
+import { GiMoon } from "react-icons/gi";
+import { BsStripe } from "react-icons/bs";
 import {
   SiCanva,
   SiMui,
-  SiNetlify,
   SiRedux,
   SiStyledcomponents,
   SiTailwindcss,
+  SiMongodb,
+  SiExpress,
+  SiSocketdotio,
+  SiPm2,
+  SiPostman,
+  SiVercel,
+  SiFirebase,
+  SiKakaotalk,
 } from "react-icons/si";
 import {
   FaBootstrap,
@@ -17,6 +27,9 @@ import {
   FaGithub,
   FaReact,
   FaSass,
+  FaNodeJs,
+  FaDocker,
+  FaNpm,
 } from "react-icons/fa";
 
 export const education = [
@@ -35,7 +48,7 @@ export const education = [
   {
     icon: <DiJavascript1 />,
     name: "JavaScript",
-    color: "#efd81d",
+    color: "#b8b814",
     link: "https://www.w3schools.com/js/",
   },
   {
@@ -100,28 +113,121 @@ export const education = [
     link: "https://styled-components.com",
   },
   {
-    icon: <AiOutlineAntDesign />,
-    name: "Ant Design",
-    color: "#35aff8",
-    link: "https://ant.design",
-  },
-  {
     icon: <SiCanva />,
     name: "Canva",
     color: "#3077e1",
     link: "https://Canva.com",
   },
   {
-    icon: <SiNetlify />,
-    name: "Netlify",
-    color: "#65d6d5",
-    link: "https://Netlify.com",
-  },
-  {
     icon: <SiMui />,
     name: "Material UI",
-    width: "16px",
+    width: "20px",
     color: "#0883ff",
     link: "https://mui.com/",
+  },
+  {
+    icon: <FaNodeJs />,
+    name: "Node Js",
+    width: "20px",
+    color: "#46cb18",
+    link: "https://nodejs.org/en",
+  },
+  {
+    icon: <SiMongodb />,
+    name: "MongoDB",
+    width: "18px",
+    color: "#3f9422",
+    link: "https://account.mongodb.com/account/login",
+  },
+  {
+    icon: <TbBrandNextjs />,
+    name: "Next Js",
+    width: "20px",
+    color: "#141414",
+    link: "https://nextjs.org/",
+  },
+  {
+    icon: <SiExpress />,
+    name: "Express Js",
+    width: "20px",
+    color: "#999999",
+    link: "https://expressjs.com/",
+  },
+  {
+    icon: <FaDocker />,
+    name: "Docker",
+    width: "20px",
+    color: "#0077d2",
+    link: "https://www.docker.com/",
+  },
+  {
+    icon: <FaNpm />,
+    name: "Npm",
+    width: "25px",
+    color: "#ff5349",
+    link: "https://www.npmjs.com/",
+  },
+  {
+    icon: <SiSocketdotio color="black" />,
+    name: "Socket.io",
+    width: "25px",
+    color: "#ececec",
+    link: "https://socket.io/",
+  },
+  {
+    icon: <SiPm2 />,
+    name: "PM2",
+    width: "25px",
+    color: "#00d2c0",
+    link: "https://pm2.keymetrics.io/",
+  },
+  {
+    icon: <FcLinux />,
+    name: "Linux",
+    width: "25px",
+    color: "#f2f27a",
+    link: "https://www.kernel.org/",
+  },
+  {
+    icon: <SiPostman />,
+    name: "Postman",
+    width: "20px",
+    color: "#ff8c00",
+    link: "https://www.postman.com/",
+  },
+  {
+    icon: <GiMoon />,
+    name: "Moon Modeler",
+    width: "20px",
+    color: "#010203",
+    link: "https://www.datensen.com/data-modeling/moon-modeler-for-databases.html",
+  },
+  {
+    icon: <SiVercel />,
+    name: "Vercel",
+    width: "20px",
+    color: "#100c08",
+    link: "https://vercel.com/",
+  },
+  {
+    icon: <SiFirebase />,
+    name: "Firebase",
+    width: "20px",
+    color: "#ff8936",
+    link: "https://console.firebase.google.com/",
+  },
+  {
+    icon: <BsStripe />,
+    name: "Stripe",
+    width: "20px",
+    color: "#861d86",
+    link: "https://stripe.com/",
+  },
+  {
+    icon: <SiKakaotalk />,
+    name: "Kakao Developers",
+    width: "16px",
+    color: "#000080",
+    link: "https://developers.kakao.com/",
   },
 ];
