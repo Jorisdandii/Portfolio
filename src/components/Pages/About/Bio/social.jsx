@@ -3,7 +3,6 @@ import {
   FaFacebookF,
   FaGithub,
   FaLinkedinIn,
-  FaPinterestP,
   FaTwitter,
 } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
