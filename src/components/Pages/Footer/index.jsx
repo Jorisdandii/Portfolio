@@ -1,9 +1,8 @@
 import moment from "moment";
-import "moment/locale/ko";
 import { social } from "../../../utils/socials.js";
 
 const Footer = () => {
-  const formattedDate = moment().locale("ko").format("LLL");
+  const formattedDate = moment().format("LLL");
   return (
     <footer className="shadow">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
