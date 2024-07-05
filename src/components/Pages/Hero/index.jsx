@@ -24,17 +24,13 @@ const Hero = () => {
         <p className="text-kulrang_text pt-5">
           I build the full stack portion of websites and web applications - the
           part users see and interact with. I create websites and applications
-          using web languages such as HTML, CSS, and JavaScript that allow users
-          to access and interact with the site or app all the time, people think
-          that you're busy.
+          using web languages such as HTML, CSS, JavaScript, React, and NodeJs
+          that allow users to access and interact with the site or app all the
+          time, people think that you're busy.
         </p>
       </div>
       <div className="w-1/2 ">
-        <img
-          src={logo}
-          alt="logo"
-          className="w-1/2 m-auto hero_img"
-        />
+        <img src={logo} alt="logo" className="w-1/2 m-auto hero_img" />
       </div>
     </section>
   );

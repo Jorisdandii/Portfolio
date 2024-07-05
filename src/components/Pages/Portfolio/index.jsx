@@ -1,6 +1,7 @@
 import Marquee from "react-fast-marquee";
 import { FaGithub, FaTv } from "react-icons/fa";
 import { projects } from "../../../utils/skills";
+import Swal from "sweetalert2";
 
 const Portfolio = () => {
   return (
@@ -27,15 +28,29 @@ const Portfolio = () => {
                 {title}
               </h5>
               <div className="flex justify-between">
-                <a
-                  rel="noreferrer"
-                  href={github_link}
-                  target="_blank"
-                  className="portfolio_btn mt-1 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[green] rounded-lg hover:bg-lime-600 focus:outline-none active:scale-110"
-                >
-                  Source code
-                  <FaGithub className="w-3.5 h-3.5 ml-2" />
-                </a>
+                {github_link ? (
+                  <a
+                    rel="noreferrer"
+                    href={github_link}
+                    target="_blank"
+                    className="portfolio_btn mt-1 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[green] rounded-lg hover:bg-lime-600 focus:outline-none active:scale-110"
+                  >
+                    Source code
+                    <FaGithub className="w-3.5 h-3.5 ml-2" />
+                  </a>
+                ) : (
+                  <button
+                    onClick={() =>
+                      Swal.fire(
+                        "죄송합니다. 코드 주소는 비밀로 유지되어서 제공할 수 없습니다.!"
+                      )
+                    }
+                    className="portfolio_btn mt-1 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[green] rounded-lg hover:bg-lime-600 focus:outline-none active:scale-110"
+                  >
+                    Source code
+                    <FaGithub className="w-3.5 h-3.5 ml-2" />
+                  </button>
+                )}
                 <a
                   rel="noreferrer"
                   href={demo}

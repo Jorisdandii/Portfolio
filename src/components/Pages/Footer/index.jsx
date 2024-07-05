@@ -1,11 +1,14 @@
+import moment from "moment";
+import "moment/locale/ko";
 import { social } from "../../../utils/socials.js";
 
 const Footer = () => {
+  const formattedDate = moment().locale("ko").format("LLL");
   return (
     <footer className="shadow">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-kulrang_text sm:text-center dark:text-gray-400">
-          © 2024 Sirojiddin. All Rights Reserved.
+          © 2024 & {formattedDate} Sirojiddin. All Rights Reserved.
         </span>
         <ul className="justify-center gap-5 flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">
           {social.map(({ href, icon }, index) => (
