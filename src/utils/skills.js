@@ -4,6 +4,7 @@ import devex from "../assets/images/projects_img/devex.jpg";
 import dressme from "../assets/images/projects_img/dressme.jpg";
 import deanbrands from "../assets/images/projects_img/deanbrands.jpg";
 import netflex from "../assets/images/projects_img/netflex.jpg";
+import storybook from "../assets/images/projects_img/storybook.png";
 
 export const skills = [
   {
@@ -108,5 +109,12 @@ export const projects = [
     github_link: "",
     demo: "https://dressme.uz/",
   },
-
+  {
+    id: 5,
+    src: storybook,
+    title: "Storybook education",
+    github_link:
+      "https://github.com/Jorisdandii/dean-education?tab=readme-ov-file",
+    demo: "https://667eaa0a14cd1b9f00346988-thusrouanb.chromatic.com/?path=/docs/components-advantages--advantage",
+  },
 ];
