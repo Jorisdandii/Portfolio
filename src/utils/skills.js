@@ -1,7 +1,7 @@
 import deanbrands_react from "../assets/images/projects_img/deanbrands_react.jpg";
 import education from "../assets/images/projects_img/education.jpg";
 import devex from "../assets/images/projects_img/devex.jpg";
-import bozor from "../assets/images/projects_img/bozor.jpg";
+import dressme from "../assets/images/projects_img/dressme.jpg";
 import deanbrands from "../assets/images/projects_img/deanbrands.jpg";
 import netflex from "../assets/images/projects_img/netflex.jpg";
 import storybook from "../assets/images/projects_img/storybook.png";
@@ -104,10 +104,10 @@ export const projects = [
   },
   {
     id: 5,
-    src: bozor,
-    title: "Online Bozor shop",
+    src: dressme,
+    title: "Dressme shop",
     github_link: "",
-    demo: "https://online-bozor.uz/",
+    demo: "https://dressme.uz/",
   },
   {
     id: 6,
