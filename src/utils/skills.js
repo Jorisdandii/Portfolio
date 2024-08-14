@@ -5,6 +5,7 @@ import dressme from "../assets/images/projects_img/dressme.jpg";
 import deanbrands from "../assets/images/projects_img/deanbrands.jpg";
 import netflex from "../assets/images/projects_img/netflex.jpg";
 import storybook from "../assets/images/projects_img/storybook.png";
+import sammi from "../assets/images/projects_img/sammi.jpg";
 
 export const skills = [
   {
@@ -116,5 +117,12 @@ export const projects = [
     github_link:
       "https://github.com/Jorisdandii/dean-education?tab=readme-ov-file",
     demo: "https://667eaa0a14cd1b9f00346988-thusrouanb.chromatic.com/?path=/docs/components-advantages--advantage",
+  },
+  {
+    id: 6,
+    src: sammi,
+    title: "Sammi education",
+    github_link: "",
+    demo: "https://www.sammi.ac/",
   },
 ];
