@@ -13,7 +13,7 @@ const Hero = () => {
           Tangirov <span className="text-lime-600">Sirojiddin</span>
         </h1>
         <ReactTyped
-          strings={["Developer", "Photographer"]}
+          strings={["Front-End", "Back-End"]}
           typeSpeed={100}
           loop
           backSpeed={30}
@@ -22,11 +22,17 @@ const Hero = () => {
           className={`text-3xl text-lime-600 font-medium`}
         />
         <p className="text-kulrang_text pt-5">
-          I build the full stack portion of websites and web applications - the
-          part users see and interact with. I create websites and applications
-          using web languages such as HTML, CSS, JavaScript, React, and NodeJs
-          that allow users to access and interact with the site or app all the
-          time, people think that you're busy.
+          As a software developer based in Seoul, I specialize in building
+          responsive and user-friendly web-applications using JavaScript,
+          TypeScript, My expertise includes React for dynamic web interfaces and
+          the integration and customization of APIs. I leverage Next.js to
+          create optimized and SEO-friendly web applications, Express.js and
+          Node Js for robust back-end solutions, and MongoDB and PostgreSQL for
+          efficient data management. I thrive on technical challenges and bring
+          a proactive, problem-solving mindset to every project. I’m passionate
+          about exploring innovative projects that advance the technological
+          landscape. I'd love to connect and discuss potential opportunities for
+          collaboration!
         </p>
       </div>
       <div className="w-1/2 ">

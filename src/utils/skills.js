@@ -1,6 +1,6 @@
 import deanbrands_react from "../assets/images/projects_img/deanbrands_react.jpg";
 import education from "../assets/images/projects_img/education.jpg";
-import devex from "../assets/images/projects_img/devex.jpg";
+import openshop from "../assets/images/projects_img/openshop.jpg";
 import dressme from "../assets/images/projects_img/dressme.jpg";
 import deanbrands from "../assets/images/projects_img/deanbrands.jpg";
 import netflex from "../assets/images/projects_img/netflex.jpg";
@@ -98,10 +98,10 @@ export const projects = [
   },
   {
     id: 4,
-    src: devex,
-    title: "Devex education",
+    src: openshop,
+    title: "Openshop",
     github_link: "",
-    demo: "https://devex.uz/",
+    demo: "https://openshop.uz/",
   },
   {
     id: 5,

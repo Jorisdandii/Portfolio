@@ -18,7 +18,7 @@ const Pages = () => {
       <About />
       <EducationSkills />
       <Skills />
-      <Technology />
+      {/* <Technology /> */}
       <Experiences />
       <Portfolio />
       <Contact />
